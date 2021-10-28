@@ -1,0 +1,21 @@
+{
+  "name": "prism-server",
+  "version": "1.0.0",
+  "description": "The main Prism repo for interacting with Prism contracts",
+  "main": "src/index.js",
+  "repository": "git@github.com:shapeshift-legacy/prism-server.git",
+  "author": "speakerwiggin <morgan@shapeshift.io>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "https-proxy-agent": "^2.2.0",
+    "ioredis": "^3.2.2",
+    "leash-stack": "git+ssh://git@github.com/shapeshift-legacy/leash-stack.git#v2.16.4",
+    "mongoose": "^5.0.5",
+    "prism-common": "git+ssh://git@github.com/shapeshift-legacy/prism-common.git",
+    "prism-event-listener": "git+ssh://git@github.com/shapeshift-legacy/prism-event-listener.git",
+    "prism-signer": "git+ssh://git@github.com/shapeshift-legacy/prism-signer.git",
+    "scs": "git+ssh://git@github.com/shapeshift-legacy/scs",
+    "web3": "^1.0.0-beta.30"
+  }
+}
